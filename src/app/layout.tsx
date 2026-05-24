@@ -1,7 +1,23 @@
 import type { Metadata, Viewport } from 'next';
+import { Cormorant_Garamond, Inter } from 'next/font/google';
 import './globals.css';
 
-const siteUrl = 'https://the-forest-rho.vercel.app';
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-serif',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+const siteUrl = 'https://the-forest.online';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -65,7 +81,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-IN">
+    <html lang="en-IN" className={`${cormorant.variable} ${inter.variable}`}>
       <body className="antialiased">
         <a className="skip-link" href="#content">
           Skip to content

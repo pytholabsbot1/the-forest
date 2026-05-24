@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -30,8 +29,8 @@
   --color-forest-green: var(--forest-green);
   --color-forest-deep: var(--forest-deep);
   --color-forest-ink: var(--forest-ink);
-  --font-serif: 'Cormorant Garamond', Georgia, serif;
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+  --font-sans: var(--font-sans, 'Inter', system-ui, sans-serif);
 }
 
 html {
@@ -128,23 +127,6 @@ a:hover {
   background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23132d24' fill-opacity='0.05'%3E%3Cpath d='M0 0h120v120H0z'/%3E%3Cpath d='M12 15h2v2h-2zM31 22h3v3h-3zM78 18h2v2h-2zM101 28h3v3h-3zM18 71h2v2h-2zM48 87h3v3h-3zM86 81h2v2h-2zM106 92h3v3h-3z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   pointer-events: none;
 }
-
-.summary-no-marker::-webkit-details-marker {
-  display: none;
-}
-
-.reveal {
-  animation: fade-up 900ms ease both;
-}
-
-.reveal-delay-1 {
-  animation: fade-up 900ms 140ms ease both;
-}
-
-.reveal-delay-2 {
-  animation: fade-up 900ms 260ms ease both;
-}
-
 @keyframes fade-up {
   from {
     opacity: 0;
