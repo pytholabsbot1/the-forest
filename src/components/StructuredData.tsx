@@ -1,21 +1,25 @@
+
 export function StructuredData() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'RealEstateDevelopment',
     name: 'The Forest',
-    description: 'A landmark luxury golf estate near NCR with premium farmhouse and estate plots, executive golf course, and wellness ecosystem.',
-    url: 'https://theforest.in',
+    description:
+      'A grand luxury golf estate in Deeg, Rajasthan, about 2 hours from Delhi, with executive golf, wellness, clubhouse, water-led landscape, and legacy plots.',
+    url: 'https://the-forest-rho.vercel.app',
+    image: 'https://the-forest-rho.vercel.app/opengraph-image',
     developer: {
       '@type': 'Organization',
       name: 'ABL Group',
     },
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Teski Village, Sikhri Tehsil',
-      addressRegion: 'Deeg, Rajasthan',
+      streetAddress: 'Teski Village, Sikhri Tehsil',
+      addressLocality: 'Deeg District',
+      addressRegion: 'Rajasthan',
       addressCountry: 'IN',
     },
-    hasMap: 'https://maps.google.com/?q=27.6072,76.9860',
+    areaServed: 'Delhi NCR',
     amenityFeature: [
       {
         '@type': 'LocationFeatureSpecification',
@@ -29,19 +33,24 @@ export function StructuredData() {
       },
       {
         '@type': 'LocationFeatureSpecification',
-        name: 'Forest Integration',
+        name: 'Spa & Wellness',
         value: true,
       },
       {
         '@type': 'LocationFeatureSpecification',
-        name: 'Wellness Center',
+        name: 'Clubhouse',
+        value: true,
+      },
+      {
+        '@type': 'LocationFeatureSpecification',
+        name: 'Water-Led Landscape',
         value: true,
       },
     ],
     offers: {
       '@type': 'AggregateOffer',
       lowPrice: '5000000',
-      highPrice: '500000000',
+      highPrice: '100000000',
       priceCurrency: 'INR',
       offerCount: '330',
     },

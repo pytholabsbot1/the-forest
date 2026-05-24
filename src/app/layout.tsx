@@ -1,34 +1,46 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
+const siteUrl = 'https://the-forest-rho.vercel.app';
+
 export const metadata: Metadata = {
-  title: 'The Forest | Luxury Golf Estate Near NCR | ABL Group',
-  description: 'A landmark luxury golf estate near NCR. Premium farmhouse and estate plots with executive golf course, forest integration, and wellness ecosystem. Where nature meets legacy. Plots starting ₹50L.',
-  keywords: ['luxury golf estate', 'farmhouse plots NCR', 'golf course property', 'second home Delhi', 'legacy estate', 'ABL Group', 'Naugaon property'],
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'The Forest | Luxury Golf Estate Near Delhi NCR',
+    template: '%s | The Forest',
+  },
+  description:
+    'A serene luxury golf estate in Deeg, Rajasthan — about 2 hours from Delhi, with executive golf, wellness, water-led landscape, and legacy plots.',
+  keywords: [
+    'The Forest',
+    'luxury golf estate',
+    'Deeg Rajasthan',
+    'legacy plots',
+    'executive golf',
+    'wellness estate',
+  ],
   authors: [{ name: 'ABL Group' }],
   creator: 'ABL Group',
   publisher: 'ABL Group',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://theforest.in',
+    url: '/',
     siteName: 'The Forest',
-    title: 'The Forest | Luxury Golf Estate Near NCR',
-    description: 'A landmark luxury golf estate near NCR. Premium plots with golf, nature, and wellness. Starting ₹50L.',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'The Forest - Luxury Golf Estate',
-      },
-    ],
+    title: 'The Forest | Luxury Golf Estate Near Delhi NCR',
+    description:
+      'A quiet luxury estate shaped by forest, golf, water, wellness, and generational value.',
+    images: ['/opengraph-image'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Forest | Luxury Golf Estate Near NCR',
-    description: 'Premium plots with golf, nature, and wellness. Starting ₹50L.',
-    images: ['/og-image.jpg'],
+    title: 'The Forest | Luxury Golf Estate Near Delhi NCR',
+    description:
+      'A quiet luxury estate shaped by forest, golf, water, wellness, and generational value.',
+    images: ['/opengraph-image'],
   },
   robots: {
     index: true,
@@ -41,24 +53,25 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
-  },
+};
+
+export const viewport: Viewport = {
+  themeColor: '#132d24',
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="canonical" href="https://theforest.in" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta name="theme-color" content="#1a2f23" />
-      </head>
-      <body className="antialiased">{children}</body>
+    <html lang="en-IN">
+      <body className="antialiased">
+        <a className="skip-link" href="#content">
+          Skip to content
+        </a>
+        {children}
+      </body>
     </html>
   );
 }

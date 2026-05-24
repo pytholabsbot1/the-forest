@@ -1,122 +1,87 @@
+
+const quickLinks = [
+  { label: 'Manifesto', href: '#manifesto' },
+  { label: 'Golf', href: '#golf' },
+  { label: 'Amenities', href: '#amenities' },
+  { label: 'Legacy', href: '#legacy' },
+  { label: 'Location', href: '#location' },
+  { label: 'Pricing', href: '#pricing' },
+  { label: 'Contact', href: '#contact' },
+];
+
+const legalLinks = [
+  { label: 'Privacy Policy', href: '/privacy' },
+  { label: 'Terms of Service', href: '/terms' },
+  { label: 'RERA Details', href: '/rera' },
+];
+
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
-  const footerLinks = {
-    quickLinks: [
-      { label: 'Vision', href: '#vision' },
-      { label: 'Features', href: '#features' },
-      { label: 'Pricing', href: '#pricing' },
-      { label: 'Location', href: '#location' },
-      { label: 'Contact', href: '#contact' },
-    ],
-    legal: [
-      { label: 'Privacy Policy', href: '/privacy' },
-      { label: 'Terms of Service', href: '/terms' },
-      { label: 'RERA Details', href: '/rera' },
-    ],
-  };
-
   return (
-    <footer className="bg-forest-dark text-forest-cream border-t border-forest-green/20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* Brand */}
-          <div className="lg:col-span-2">
-            <a href="#" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-forest-green to-forest-sage flex items-center justify-center">
-                <svg className="w-6 h-6 text-forest-ivory" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L8 8h3v6H8l4 6 4-6h-3V8h3L12 2z" />
-                </svg>
-              </div>
-              <span className="font-serif text-2xl font-semibold text-forest-ivory">
+    <footer className="border-t border-white/10 bg-[var(--forest-ink)] text-[var(--forest-ivory)]">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="grid gap-12 lg:grid-cols-[1.3fr_0.7fr_0.7fr]">
+          <div>
+            <a href="#top" className="inline-flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(200,165,97,0.55)] bg-white/5 font-serif text-lg tracking-[0.25em] text-[var(--forest-gold)]">
+                TF
+              </span>
+              <span className="font-serif text-2xl font-semibold tracking-[0.18em] text-[var(--forest-ivory)]">
                 The Forest
               </span>
             </a>
-            <p className="text-forest-cream/70 mb-6 max-w-md leading-relaxed">
-              A landmark luxury golf estate near NCR. Premium farmhouse and estate plots 
-              with executive golf course, forest integration, and wellness ecosystem. 
-              Where nature meets legacy.
+            <p className="mt-6 max-w-xl text-sm leading-7 text-white/68">
+              A grand luxury golf estate in Deeg, Rajasthan — shaped by forest, golf, water,
+              wellness, and long-term value.
             </p>
-            <p className="text-sm text-forest-gold font-medium mb-2">Developed by ABL Group</p>
-            <p className="text-sm text-forest-cream/50">
-              Building legacies across NCR
+            <p className="mt-5 text-xs uppercase tracking-[0.28em] text-[var(--forest-gold)]/95">
+              ABL Group
+            </p>
+            <p className="mt-2 max-w-lg text-xs leading-6 text-white/52">
+              All specifications, amenities, and pricing are indicative and may evolve with the
+              final sales release. RERA and approvals can be shared by the team during enquiry.
             </p>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="font-semibold text-forest-ivory mb-4">Quick Links</h4>
-            <ul className="space-y-3">
-              {footerLinks.quickLinks.map((link) => (
-                <li key={link.label}>
+          <nav aria-label="Footer quick links">
+            <h2 className="text-xs uppercase tracking-[0.32em] text-white/52">Quick Links</h2>
+            <ul className="mt-5 space-y-3">
+              {quickLinks.map((link) => (
+                <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-forest-cream/70 hover:text-forest-gold transition-colors"
+                    className="text-sm text-white/74 transition-colors hover:text-[var(--forest-gold)]"
                   >
                     {link.label}
                   </a>
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
 
-          {/* Legal */}
-          <div>
-            <h4 className="font-semibold text-forest-ivory mb-4">Legal</h4>
-            <ul className="space-y-3">
-              {footerLinks.legal.map((link) => (
-                <li key={link.label}>
+          <nav aria-label="Legal links">
+            <h2 className="text-xs uppercase tracking-[0.32em] text-white/52">Legal</h2>
+            <ul className="mt-5 space-y-3">
+              {legalLinks.map((link) => (
+                <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-forest-cream/70 hover:text-forest-gold transition-colors"
+                    className="text-sm text-white/74 transition-colors hover:text-[var(--forest-gold)]"
                   >
                     {link.label}
                   </a>
                 </li>
               ))}
             </ul>
-
-            {/* RERA Disclaimer */}
-            <div className="mt-6 p-4 bg-forest-green/10 rounded-lg">
-              <p className="text-xs text-forest-cream/50 leading-relaxed">
-                <strong className="text-forest-cream/70">RERA Registration:</strong> 
-                {' '}Pending. All specifications, amenities, and pricing are indicative and 
-                subject to change without notice.
-              </p>
-            </div>
-          </div>
+          </nav>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-forest-green/20">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-forest-cream/50">
-              &copy; {currentYear} ABL Group. All rights reserved.
-            </p>
-            <p className="text-sm text-forest-cream/50">
-              Where Nature Meets Legacy
-            </p>
-          </div>
+        <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-8 text-xs uppercase tracking-[0.24em] text-white/42 sm:flex-row sm:items-center sm:justify-between">
+          <p>&copy; {currentYear} ABL Group. All rights reserved.</p>
+          <p>Where nature meets legacy.</p>
         </div>
       </div>
-
-      {/* llms.txt for AI discoverability */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'WebSite',
-            name: 'The Forest',
-            url: 'https://theforest.in',
-            potentialAction: {
-              '@type': 'SearchAction',
-              target: 'https://theforest.in/search?q={search_term_string}',
-              'query-input': 'required name=search_term_string',
-            },
-          }),
-        }}
-      />
     </footer>
   );
 }

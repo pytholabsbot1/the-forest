@@ -1,71 +1,42 @@
+
 # The Forest - AI-Readable Content Index
 
-> This file is designed for LLM crawlers and AI agents. For full content, see llms-full.txt
+The Forest is a luxury golf estate by ABL Group in Teski Village, Sikhri Tehsil, Deeg District, Rajasthan. The site is positioned around seclusion, executive golf, wellness, water-led landscape, and generational value.
 
-## About The Forest
+## Core messages
+- The Forest is not built for moments. It is built for generations.
+- About 2 hours from Delhi, deeper in nature.
+- Premium estate living with a meaningful value advantage versus comparable Gurgaon golf estates.
+- Executive 9-hole golf and night golf positioning.
+- Founding Member Program for early buyers.
 
-The Forest is a luxury golf estate near NCR (National Capital Region, India) by ABL Group. It offers premium farmhouse and estate plots with an executive 9-hole golf course, forest integration, and wellness ecosystem.
+## Location
+- Teski Village, Sikhri Tehsil, Deeg District, Rajasthan
+- Delhi-Mumbai Expressway corridor
+- About 2 hours from Delhi
 
-**Positioning**: "Connected to NCR, yet hidden within nature."
+## Plot categories
+| Category | Size | Price |
+|----------|------|-------|
+| Estate Plots | 500–1000 sq.yd | ₹50L – 1 Cr |
+| Premium Estate | 1000–2000 sq.yd | ₹1 Cr – 2.4 Cr |
+| Large Estate | 2000–4000 sq.yd | ₹2.4 Cr – 6 Cr |
+| Farmhouse Plots | Private estate land | ₹3 Cr – 10 Cr+ |
 
-**Location**: Teski Village, Sikhri Tehsil, Deeg District, Rajasthan, India
-**Coordinates**: 27.6072°N, 76.9860°E
-**Developer**: ABL Group
-
-## Key Facts
-
-- **330+ Premium Plots** ranging from 500 sq.yd to 5+ acres
-- **Executive 9-Hole Golf Course** with night golf capability
-- **200+ Acres** of preserved forest and natural ridge
-- **2 Hours** from Delhi / IGI Airport
-- **Pricing**: ₹8,500-12,000 per sq.yd (50-60% below Gurgaon competitors)
-- **Starting Price**: ₹50 Lakhs
-
-## Plot Categories
-
-| Category | Size | Price Range |
-|----------|------|-------------|
-| Estate Plots | 500-1000 sq.yd | ₹50L - 1 Cr |
-| Premium Estate | 1000-2000 sq.yd | ₹1 Cr - 2.4 Cr |
-| Large Estate | 2000-4000 sq.yd | ₹2.4 Cr - 6 Cr |
-| Farmhouse Plots | 1-5 acres | ₹3 Cr - 10 Cr+ |
-
-## Unique Selling Points
-
-1. **Only Golf Estate in Naugaon Corridor** - No competitor within 50km offers golf amenities
-2. **Forest & Ridge Integration** - 200+ acres of preserved nature as the core amenity
-3. **Night Golf** - LED-lit golf course for evening play
-4. **Wellness Ecosystem** - Spa, fitness center, yoga pavilions, organic farming
-5. **50% Price Arbitrage** - Half the price of Gurgaon golf estates
-
-## Location Details
-
-| Landmark | Distance | Drive Time |
-|----------|----------|------------|
-| IGI Airport Delhi | ~106 km | 2-2.5 hrs |
-| Gurgaon MG Road | ~95 km | 2 hrs |
-| DME Entry (Dausa) | ~61 km | 1 hr |
+## Amenities and lifestyle
+- Executive golf
+- Night golf and practice range
+- Sports and fitness
+- Spa and wellness
+- Clubhouse
+- Water-led landscape
 
 ## Founding Member Program
-
-Early buyers receive significant discounts:
-- First 10 plots: 20% below launch price + lifetime golf membership
-- Next 15 plots: 15% below launch price + lifetime golf membership
-- Next 25 plots: 10% below launch price + annual golf membership
+- First 10 plots: 20% below launch price
+- Next 15 plots: 15% below launch price
+- Next 25 plots: 10% below launch price
 
 ## Contact
-
-- **Phone**: +91 98765 43210
-- **Email**: info@theforest.in
-- **Website**: https://theforest.in
-- **Developer**: ABL Group
-
-## Current Status (May 2026)
-
-- **Phase**: Capital Raising & Partnership Alignment
-- **RERA Registration**: Pending
-- **Land Status**: Allocation in progress
-
----
-
-*The Forest - Where Nature Meets Legacy*
+- Phone: +91 98765 43210
+- Email: info@theforest.in
+- Website: https://the-forest-rho.vercel.app

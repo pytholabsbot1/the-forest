@@ -1,326 +1,86 @@
+
 # The Forest - Complete AI-Readable Content
 
-> This file contains comprehensive information for LLM crawlers and AI agents about The Forest luxury golf estate.
-
-## Project Overview
-
+## Project overview
 **Name**: The Forest
-**Tagline**: Where Nature Meets Legacy
-**Type**: Luxury Golf Estate & Curated Land Community
 **Developer**: ABL Group
-**Status**: Pre-Launch (Capital Raising Phase)
+**Type**: Luxury golf estate and legacy land community
+**Location**: Teski Village, Sikhri Tehsil, Deeg District, Rajasthan
+**Positioning**: A quieter luxury estate shaped by golf, nature, water, wellness, and generational value.
 
-### Vision Statement
+## Hero / Cover
+- Eyebrow: ABL Group presents
+- Title: THE FOREST
+- Subhead: A grand luxury golf estate
+- Support line: About 2 hours from Delhi, a world away from the city.
+- Microline: Premium estate plots • Curated amenities • Legacy value
+- Primary CTA: Request the brochure
+- Secondary CTA: Explore the estate
 
-The Forest is a landmark luxury golf estate and curated land community near the NCR growth corridor — nature, wellness, legacy ownership, elevated lifestyle living. Premium farmhouse and estate plots, executive golf, spa/wellness ecosystem, forest-ridge-integrated landscape. Low density. Long-term appreciation.
+## Manifesto / Why The Forest exists
+- Headline: The Forest is not built for moments. It is built for generations.
+- Body: Modern life has become faster, denser, and more disconnected from nature. The Forest is a quieter answer: a luxury estate where family time, wellness, golf, and long-term value can live at the same address.
+- Callout: Land you own. Life you return to.
 
-This is NOT conventional real estate. It is a generational estate, a luxury lifestyle destination, a long-term land investment.
+## Executive golf
+- Headline: Golf that fits your schedule, day or night.
+- Body: An executive 9-hole experience designed for relaxed rounds, practice, and evenings that stretch into conversation.
+- Caption: Play beyond daylight.
+- Supporting tone: calm, premium, and lifestyle-led rather than tournament-driven.
 
-### Positioning
+## Amenities
+- Night Golf & Practice Range: Built for play beyond daylight.
+- Sports & Fitness: Spaces designed for movement, vitality, and everyday energy.
+- Spa & Wellness: Rooms, rituals, and environments made for restoration and calm.
+- The amenity story should feel curated rather than crowded.
 
-"Connected to NCR, yet hidden within nature. Where the forest is the amenity, and golf is the lifestyle."
+## Clubhouse
+- Headline: Designed for slow mornings, long conversations, and evenings that extend beyond sunset.
+- Body: A quiet destination for social life.
+- Supporting line: For coffee, conversations, and unhurried afternoons.
 
----
+## Landscape / water
+- Headline: Water, landscaped.
+- Body: The natural terrain becomes the luxury experience: water edges, tree lines, open skies, and the breathing room that makes a place feel complete.
+- Support line: Long stretches of water-led landscape woven into the estate.
 
-## Location Details
+## Legacy / future
+- Headline: A foundation for tomorrow.
+- Body: The Forest is designed as a generational place: for family time, rituals, learning, and the kind of life that becomes memory. Built to be inherited in value and in meaning.
+- Supporting line: The Forest is a place to return to, not just a place to own.
 
-### Address
-- **Village**: Teski
-- **Tehsil**: Sikhri
-- **District**: Deeg (created August 2023 from Bharatpur)
-- **State**: Rajasthan, India
-- **Coordinates**: 27.6072°N, 76.9860°E
+## Location / connectivity
+- Headline: An estate shaped by location.
+- Body: Teski Village, Sikhri Tehsil, Deeg District, Rajasthan. About 2 hours from Delhi, deeper in nature, and aligned to a corridor with long-term growth potential.
+- Positioning line: Not closer to Delhi. Deeper in nature.
+- Additional trust lines:
+  - The Delhi-Mumbai Expressway corridor strengthens the long-term narrative.
+  - Rajasthan RERA adds regulatory clarity and flexibility.
 
-### Distance Matrix
+## Pricing / investment
+- Headline: Premium plots, positioned for value.
+- Body: The Forest is priced to create real access to luxury estate living, with a meaningful value advantage versus comparable Gurgaon golf estates.
+- Value line: 50–60% value advantage vs comparable Gurgaon golf estates.
 
-| Landmark | Distance | Drive Time |
-|----------|----------|------------|
-| IGI Airport Delhi | ~106 km | 2-2.5 hours |
-| Gurgaon MG Road | ~95 km | 2 hours |
-| DME Entry (Dausa) | ~61 km | 1 hour |
-| Karma Lakelands | ~84 km | — |
-| Aravali Hills | ~86 km | — |
-
-### Location Advantages
-
-1. **Deeper Seclusion**: 2 hours from Delhi means true escape—not a quick weekend spot, but a real retreat from urban chaos
-2. **DME Corridor Growth**: Delhi-Mumbai Expressway is transforming the region with strategic location for long-term appreciation
-3. **50% Price Arbitrage**: Half the price of Gurgaon golf estates—same lifestyle, better seclusion, smarter investment
-4. **Rajasthan RERA**: Regulatory flexibility and faster approvals compared to Haryana
-
----
-
-## Product Offering
-
-### Plot Categories & Pricing
-
-#### Estate Plots (40% of inventory)
-- **Size**: 500-1000 sq.yd
-- **Dimensions**: 30x150 to 50x200
-- **Price/sq.yd**: ₹10,000-12,000
-- **Total Price**: ₹50L - 1 Cr
-- **Target**: Second-home buyers, professionals
-
-#### Premium Estate (30% of inventory)
-- **Size**: 1000-2000 sq.yd
-- **Dimensions**: 50x200 to 60x300
-- **Price/sq.yd**: ₹9,000-11,000 (5% size discount)
-- **Total Price**: ₹1 Cr - 2.4 Cr
-- **Target**: Business families, HNIs
-
-#### Large Estate (15% of inventory)
-- **Size**: 2000-4000 sq.yd
-- **Price/sq.yd**: ₹8,000-10,000 (10% size discount)
-- **Total Price**: ₹2.4 Cr - 6 Cr
-- **Target**: Legacy buyers, multi-generational families
-
-#### Farmhouse Plots (15% of inventory)
-- **Size**: 1-5 acres (4840-24200 sq.yd)
-- **Price/sq.yd**: ₹7,500-9,000 (20% size discount)
-- **Total Price**: ₹3 Cr - 10 Cr+
-- **Target**: Ultra-HNIs, farmhouse lifestyle seekers
-
-### Location Premiums
-
-| Premium Category | Premium % | Example Effect |
-|-----------------|-----------|----------------|
-| Golf Course Facing | +25% | ₹1 Cr plot becomes ₹1.25 Cr |
-| Forest Edge | +20% | ₹1 Cr plot becomes ₹1.2 Cr |
-| Ridge View | +15% | ₹1 Cr plot becomes ₹1.15 Cr |
-| Corner Plot | +10% | ₹1 Cr plot becomes ₹1.1 Cr |
-| Park Facing | +8% | ₹1 Cr plot becomes ₹1.08 Cr |
-
----
-
-## Amenities & Features
-
-### 1. Executive Golf Course (9-Hole + Night Golf)
-
-The Forest features the ONLY golf course in the Naugaon corridor. This is a significant differentiator as no competitor within 50km offers golf amenities.
-
-**Features**:
-- Executive 9-hole course designed for lifestyle golfers
-- Night golf with LED lighting
-- Driving range and practice facility
-- Golf academy for all ages and skill levels
-- Pro shop and clubhouse
-
-**Golf Membership Tiers**:
-- Founding Member: Included with plot (first 50) - Lifetime
-- Lifetime Member: ₹5-7 Lakh - Lifetime
-- Annual Premium: ₹75,000 - 1 Lakh/year
-- Weekend Member: ₹50,000/year
-- Corporate: ₹1.5-2 Lakh/year
-
-### 2. Forest & Ridge Integration
-
-200+ acres of preserved forest and natural ridge form the heart of The Forest. This isn't a development with some greenery—it's nature with curated estates within it.
-
-**Features**:
-- 200+ acres preserved forest
-- Natural ridge with panoramic views
-- Private forest trails (8km+)
-- Bird watching and nature zones
-- Forest-edge premium plots available
-
-### 3. Wellness Ecosystem
-
-A dedicated wellness zone with spa, fitness center, yoga pavilions, and organic farming options. Wellness isn't an amenity here—it's woven into daily life.
-
-**Features**:
-- Luxury spa and wellness center
-- State-of-the-art fitness facility
-- Yoga and meditation pavilions
-- Organic farming plots available
-- Ayurveda and holistic wellness programs
-
----
-
-## Target Customers
-
-### Primary Segments
-
-#### Segment A: Business Family Patriarchs (35-40% of target)
-- Age: 45-60 years
-- Net Worth: ₹15-50 Crores
-- Location: Delhi, Gurgaon, Noida
-- Budget: ₹75L - 2 Crores
-- Motivation: Legacy asset, family retreat, health concerns, status
-- Decision Timeline: 3-6 months
-
-#### Segment B: Second-Home Seekers (20-25% of target)
-- Age: 35-55 years
-- Net Worth: ₹5-20 Crores
-- Location: NCR
-- Budget: ₹50L - 1.5 Crores
-- Motivation: Weekend escape, quality family time, health and wellness
-- Decision Timeline: 6-12 months
-
-#### Segment C: Legacy Investors (15-20% of target)
-- Age: 40-60 years
-- Net Worth: ₹10-30 Crores
-- Location: NCR, Tier-1 cities
-- Budget: ₹50L - 2 Crores
-- Motivation: Long-term appreciation, land as asset class, DME corridor growth thesis
-- Decision Timeline: 3-9 months
-
-### Secondary Segments
-- Golf & Wellness Enthusiasts: 10-15% | ₹75L - 2 Cr
-- Farmhouse Lifestyle Seekers: 10-15% | ₹1-5 Cr
-- NRIs: 15-20% | ₹50L - 1.5 Cr
-
----
-
-## Competitive Positioning
-
-### Price Comparison
-
-| Project | Location | Price/sq.yd | The Forest Discount |
-|---------|----------|-------------|---------------------|
-| Karma Lakelands | Gurgaon Sector 80 | ₹20,000-28,000 | 50-60% below |
-| Aravali Hills | Sohna Road | ₹18,000-22,000 | 45-55% below |
-| Westin Sohna | Sohna | ₹15,000-20,000 | 35-50% below |
-| Golden Greens | Sohna-Faridabad | ₹12,000-16,000 | 20-35% below |
-| Tamboli | Pataudi | ₹8,000-12,000 | Competitive |
-| **The Forest** | **Deeg, Rajasthan** | **₹8,500-12,000** | **Value leader** |
-
-### Competitive Advantages
-
-1. **Only Golf Estate in Naugaon Corridor** - No competitor has golf within 50km
-2. **Forest + Ridge Integration** - Unique natural landscape
-3. **50-60% Price Discount** - Significant value arbitrage
-4. **Night Golf** - Differentiated offering
-5. **Rajasthan RERA** - More flexible regulatory environment
-
-### Naugaon Competitors (Direct)
-
-| Competitor | Price Point | Positioning | Threat Level |
-|------------|-------------|-------------|--------------|
-| Aranyaka Sway | ₹1.5 Cr+ | Legacy + Legal compliance | HIGH |
-| Zade Infra Palatial Farms | Premium | Wellness + Organic lifestyle | HIGH |
-| Pacific Hill Front Farms | ₹60L+ | Affordable farmhouse + Investment | MEDIUM |
-| Anandam Farms | ₹8,500/sq.yd | Budget weekend living | MEDIUM |
-| Naugaon Farmhouses | ₹1 Cr+ | DMIC corridor investment | MEDIUM |
-
-**Critical Finding**: All five Naugaon competitors are marketing WITHOUT golf amenities. This is The Forest's strategic moat.
-
----
+### Plot categories
+- Estate Plots: 500–1000 sq.yd, ₹50L – 1 Cr
+- Premium Estate: 1000–2000 sq.yd, ₹1 Cr – 2.4 Cr
+- Large Estate: 2000–4000 sq.yd, ₹2.4 Cr – 6 Cr
+- Farmhouse Plots: Private estate land, ₹3 Cr – 10 Cr+
 
 ## Founding Member Program
+- First 10 plots: 20% below launch price
+- Next 15 plots: 15% below launch price
+- Next 25 plots: 10% below launch price
+- Early buyers receive priority access, founding member benefits, and the opportunity to secure the strongest locations before launch pricing steps up.
 
-### Tier Structure
+## Contact
+- Phone: +91 98765 43210
+- Email: info@theforest.in
+- Website: https://the-forest-rho.vercel.app
 
-| Tier | Plots | Discount | Lock-in | Benefits |
-|------|-------|----------|---------|----------|
-| Founding Partner | First 10 | 20% below launch | 3-year hold | Lifetime golf membership, priority plot selection, named on Founders Wall, exclusive events, 2 guest passes annually |
-| Founding Member | Next 15 | 15% below launch | 2-year hold | Lifetime golf membership, priority plot selection, named on Founders Wall |
-| Early Bird | Next 25 | 10% below launch | 1-year hold | Annual golf membership, priority selection |
-
-### Pricing Example
-
-| Plot Size | Launch Price | Founding Partner (20% off) | Founding Member (15% off) | Early Bird (10% off) |
-|-----------|--------------|---------------------------|--------------------------|---------------------|
-| 1000 sq.yd @ ₹10,000 | ₹1 Cr | ₹80L | ₹85L | ₹90L |
-| 1000 sq.yd Golf-facing @ ₹12,500 | ₹1.25 Cr | ₹1 Cr | ₹1.06 Cr | ₹1.125 Cr |
-| 2000 sq.yd @ ₹9,000 | ₹1.8 Cr | ₹1.44 Cr | ₹1.53 Cr | ₹1.62 Cr |
-
----
-
-## Payment Plans
-
-### Plan A: Down Payment (Best Price)
-- Booking: 95%
-- Possession: 5%
-- Discount: 10%
-- Best For: Investors, legacy buyers with liquidity
-
-### Plan B: Construction-Linked (Standard)
-- Booking: 20%
-- During construction: 60% (milestone-based)
-- Possession: 20%
-- Discount: 5%
-- Best For: Standard buyers, HNIs
-
-### Plan C: Flexi-Pay (Lowest Entry)
-- Booking: 10%
-- 12 months: 40%
-- 24 months: 50%
-- Discount: 0%
-- Best For: NRIs, professionals, younger buyers
-
-### Plan D: EMI Plan
-- Booking: 20%
-- 36 months: 80% in EMIs
-- Premium: 2% over base price
-- Best For: Salaried professionals
-
----
-
-## Project Timeline
-
-### Phase 0: Capital & Partnerships (Current - Q2-Q3 2026)
-- Secure land allocation funding
-- Align channel partners
-- Build brand awareness foundation
-
-### Phase 1: Market Ready (Q4 2026)
-- Land formally allocated/acquisition in progress
-- Product fully defined
-- Sales collateral complete
-- Founding member program launched
-
-### Phase 2: Pre-Sales (Q1 2027)
-- Validate demand with real bookings
-- Achieve 25 founding member commitments
-- Build sales momentum
-
-### Phase 3: Full Launch (Q2-Q4 2027)
-- Public market launch
-- RERA registration complete
-- Construction commencement
-- 100+ plot bookings
-
----
-
-## Revenue Projections
-
-### Scenario Analysis
-
-| Scenario | Year 1 | Year 2 | Year 3 | 3-Year Total |
-|----------|--------|--------|--------|--------------|
-| Conservative | ₹75 Cr | ₹100 Cr | ₹125 Cr | ₹300 Cr |
-| Moderate | ₹125 Cr | ₹175 Cr | ₹200 Cr | ₹500 Cr |
-| Optimistic | ₹200 Cr | ₹275 Cr | ₹300 Cr | ₹775 Cr |
-
-### Unit Sales Projections
-
-| Phase | Timeline | Units | Avg. Ticket | Revenue |
-|-------|----------|-------|-------------|---------|
-| Phase 0: Founding Members | Q3 2026 | 25 | ₹75L | ₹18.75 Cr |
-| Phase 1: Early Adopters | Q4 2026 - Q1 2027 | 50 | ₹85L | ₹42.5 Cr |
-| Phase 2: Pre-Sales | Q1-Q2 2027 | 75 | ₹90L | ₹67.5 Cr |
-| Phase 3: Full Launch | Q2-Q4 2027 | 100 | ₹95L | ₹95 Cr |
-
----
-
-## Contact Information
-
-- **Phone**: +91 98765 43210
-- **Email**: info@theforest.in
-- **Website**: https://theforest.in
-- **Developer**: ABL Group
-- **Corporate Office**: Delhi NCR, India
-
----
-
-## Legal & Disclaimers
-
-- **RERA Registration**: Pending
-- All specifications, amenities, and pricing are indicative and subject to change without notice
-- Deeg district is new (created August 2023 from Bharatpur)
-- Rajasthan RERA applies
-
----
-
-*The Forest - Where Nature Meets Legacy*
-*A project by ABL Group*
+## Editorial language rules
+- Use restraint, calm, and premium spacing.
+- Avoid aggressive sales language.
+- Avoid unsupported claims such as exact acreage unless separately verified.
+- Use the brochure tone: legacy, seclusion, nature, golf, wellness, and long-term value.
