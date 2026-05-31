@@ -1,4 +1,3 @@
-
 # The Forest - AI-Readable Content Index
 
 The Forest is a luxury golf estate by ABL Group in Teski Village, Sikhri Tehsil, Deeg District, Rajasthan. The site is positioned around seclusion, executive golf, wellness, water-led landscape, and generational value.
@@ -9,6 +8,14 @@ The Forest is a luxury golf estate by ABL Group in Teski Village, Sikhri Tehsil,
 - Premium estate living with a meaningful value advantage versus comparable Gurgaon golf estates.
 - Executive 9-hole golf and night golf positioning.
 - Founding Member Program for early buyers.
+
+## Key Pages
+- [Home](https://the-forest-rho.vercel.app/) - The Forest luxury golf estate landing page
+- [Pricing](https://the-forest-rho.vercel.app/#pricing) - Plot categories, sizes, and price ranges
+- [Founding Member Program](https://the-forest-rho.vercel.app/#founding) - Early buyer benefits and discounts
+- [Amenities](https://the-forest-rho.vercel.app/#amenities) - Golf course, sports, spa, wellness, clubhouse
+- [Location](https://the-forest-rho.vercel.app/#location) - Teski Village, Rajasthan — 2 hours from Delhi
+- [Contact](https://the-forest-rho.vercel.app/#contact) - Inquiry form and contact details
 
 ## Location
 - Teski Village, Sikhri Tehsil, Deeg District, Rajasthan
