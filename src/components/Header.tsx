@@ -7,7 +7,12 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.5);
+    const onScroll = () => {
+      const hero = document.getElementById('top');
+      if (hero) {
+        setScrolled(window.scrollY > hero.offsetHeight - 80);
+      }
+    };
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
