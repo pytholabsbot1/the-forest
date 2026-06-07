@@ -37,10 +37,11 @@ export function Header() {
           />
         </a>
 
-        {/* Contact Us */}
+        {/* Contact Us — hidden until past hero */}
         <a
           href="#contact"
-          className="inline-flex items-center border border-[#c8a561]/60 px-6 py-2.5 text-[0.6rem] uppercase tracking-[0.35em] text-white transition-colors hover:bg-white/10"
+          className="inline-flex items-center border border-[#c8a561]/60 px-6 py-2.5 text-[0.6rem] uppercase tracking-[0.35em] text-white transition-all duration-500 hover:bg-white/10"
+          style={{ opacity: scrolled ? 1 : 0, transform: `translateY(${scrolled ? 0 : -8}px)` }}
         >
           Contact Us
         </a>
