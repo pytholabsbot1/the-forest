@@ -10,6 +10,12 @@ export function HeroSection() {
       <ParallaxSection src={heroImages.main} alt="Luxury golf estate at golden hour" speed={0.25} priority>
         <div className="flex min-h-[90dvh] flex-col items-center justify-center px-4 pb-20 pt-24 text-center sm:px-6 lg:px-8">
 
+          <img
+            src="/logo.png"
+            alt=""
+            className="mb-4 h-20 w-20 object-contain brightness-110 drop-shadow-[0_2px_24px_rgba(200,165,97,0.5)] sm:h-24 sm:w-24 lg:h-28 lg:w-28"
+          />
+
           <h1
             className="mt-6 font-serif text-7xl leading-none tracking-wide text-white sm:text-8xl lg:text-[9rem]"
             style={{ textShadow: '0 2px 20px rgba(0,0,0,0.6)' }}

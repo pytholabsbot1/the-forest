@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
@@ -15,14 +15,25 @@ const navLinks = [
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.5);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   return (
     <>
       <header className="fixed inset-x-0 top-0 z-50">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 pb-3 pt-6 lg:px-10 lg:pt-8">
 
-          {/* Logo */}
-          <a href="#top" className="transition-opacity hover:opacity-85">
+          {/* Logo — hidden at top, fades in on scroll */}
+          <a
+            href="#top"
+            className="transition-all duration-500 hover:opacity-85"
+            style={{ opacity: scrolled ? 1 : 0, transform: `translateY(${scrolled ? 0 : -8}px)` }}
+          >
             <Image
               src="/logo.png"
               alt="The Forest"
