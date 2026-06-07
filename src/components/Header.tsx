@@ -18,7 +18,10 @@ export function Header() {
   }, []);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-[#0f1f18]/90 backdrop-blur-md">
+    <header
+      className="fixed inset-x-0 top-0 z-50 transition-colors duration-500"
+      style={{ backgroundColor: scrolled ? 'rgba(15,31,24,0.9)' : 'transparent', backdropFilter: scrolled ? 'blur(12px)' : 'none' }}
+    >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-10 lg:py-4">
 
         {/* Logo — hidden at top, fades in on scroll */}
