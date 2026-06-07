@@ -1,98 +1,113 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 const navLinks = [
-  { href: '#manifesto', label: 'Manifesto' },
+  { href: '#estate', label: 'The Estate' },
   { href: '#golf', label: 'Golf' },
   { href: '#amenities', label: 'Amenities' },
   { href: '#legacy', label: 'Legacy' },
   { href: '#location', label: 'Location' },
-  { href: '#pricing', label: 'Pricing' },
   { href: '#contact', label: 'Contact' },
 ];
 
 export function Header() {
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <motion.header
-      className="fixed inset-x-0 top-0 z-50 border-b backdrop-blur-xl transition-colors duration-500"
-      style={{
-        backgroundColor: 'rgba(247,242,232,0.86)',
-        borderColor: 'rgba(19,45,36,0.12)',
-      }}
-    >
-      <nav
-        aria-label="Primary"
-        className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
-      >
-        <a href="#top" className="group flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(200,165,97,0.55)] bg-white/55 font-serif text-lg tracking-[0.25em] text-[var(--forest-green)] transition-transform group-hover:-translate-y-0.5">
-            TF
-          </span>
-          <span className="font-serif text-xl font-semibold tracking-[0.18em] text-[var(--forest-deep)] sm:text-2xl">
-            The Forest
-          </span>
-        </a>
+    <>
+      <header className="fixed inset-x-0 top-0 z-50">
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 pb-3 pt-6 lg:px-10 lg:pt-8">
 
-        <div className="hidden items-center gap-7 lg:flex">
-          {navLinks.map((link) => (
+          {/* Logo */}
+          <a href="#top" className="transition-opacity hover:opacity-85">
+            <Image
+              src="/logo.png"
+              alt="The Forest"
+              width={64}
+              height={64}
+              className="h-16 w-16 object-contain brightness-110 drop-shadow-[0_2px_16px_rgba(200,165,97,0.6)]"
+              priority
+            />
+          </a>
+
+          {/* Right side: CONTACT + hamburger */}
+          <div className="flex items-center gap-3">
             <a
-              key={link.href}
-              href={link.href}
-              className="text-xs uppercase tracking-[0.28em] text-[var(--forest-green)]/72 transition-colors hover:text-[var(--forest-deep)]"
+              href="#contact"
+              className="hidden items-center bg-[#1a3528] px-6 py-2.5 text-[0.6rem] uppercase tracking-[0.35em] text-white transition-opacity hover:opacity-85 sm:inline-flex"
             >
-              {link.label}
+              Contact
             </a>
-          ))}
-          <a
-            href="#contact"
-            className="inline-flex items-center rounded-full border border-[rgba(37,76,58,0.16)] bg-white/70 px-5 py-2.5 text-xs uppercase tracking-[0.26em] text-[var(--forest-green)] transition-colors hover:bg-white"
-          >
-            Request the brochure
-          </a>
-        </div>
 
-        <button
-          type="button"
-          className="inline-flex cursor-pointer items-center rounded-full border border-[rgba(37,76,58,0.14)] bg-white/70 px-4 py-2 text-xs uppercase tracking-[0.26em] text-[var(--forest-green)] lg:hidden"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-expanded={mobileOpen}
-        >
-          {mobileOpen ? 'Close' : 'Menu'}
-        </button>
-      </nav>
-
-      {mobileOpen && (
-        <motion.div
-          className="border-t border-[rgba(19,45,36,0.12)] bg-[rgba(247,242,232,0.96)] px-4 pb-6 pt-2 backdrop-blur-xl lg:hidden"
-          initial={{ opacity: 0, height: 0 }}
-          animate={{ opacity: 1, height: 'auto' }}
-          exit={{ opacity: 0, height: 0 }}
-        >
-          <div className="space-y-1">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="block rounded-2xl px-4 py-3 text-sm uppercase tracking-[0.22em] text-[var(--forest-green)] transition-colors hover:bg-white/70"
-                onClick={() => setMobileOpen(false)}
-              >
-                {link.label}
-              </a>
-            ))}
+            <button
+              type="button"
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] transition-opacity hover:opacity-70"
+              aria-label="Toggle menu"
+              aria-expanded={menuOpen}
+            >
+              <motion.span
+                className="block h-px w-6 bg-white"
+                animate={menuOpen ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
+                transition={{ duration: 0.3 }}
+              />
+              <motion.span
+                className="block h-px w-6 bg-white"
+                animate={menuOpen ? { opacity: 0 } : { opacity: 1 }}
+                transition={{ duration: 0.2 }}
+              />
+              <motion.span
+                className="block h-px w-6 bg-white"
+                animate={menuOpen ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
+                transition={{ duration: 0.3 }}
+              />
+            </button>
           </div>
-          <a
-            href="#contact"
-            className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-[var(--forest-green)] px-5 py-3 text-xs uppercase tracking-[0.26em] text-[var(--forest-ivory)]"
-            onClick={() => setMobileOpen(false)}
+        </nav>
+      </header>
+
+      {/* Full-screen nav overlay */}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            className="fixed inset-0 z-40 flex flex-col items-center justify-center bg-[#0f1f17]"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
-            Request the brochure
-          </a>
-        </motion.div>
-      )}
-    </motion.header>
+            <nav className="flex flex-col items-center gap-8">
+              {navLinks.map((link, i) => (
+                <motion.a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="font-serif text-4xl text-white/80 transition-colors hover:text-[#c8a561] sm:text-5xl"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 + i * 0.06, duration: 0.4 }}
+                >
+                  {link.label}
+                </motion.a>
+              ))}
+            </nav>
+
+            <motion.a
+              href="#contact"
+              onClick={() => setMenuOpen(false)}
+              className="mt-12 border border-[#c8a561]/50 px-10 py-3.5 text-[0.6rem] uppercase tracking-[0.4em] text-[#c8a561] transition-colors hover:bg-[#c8a561]/10"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+            >
+              Schedule a Visit
+            </motion.a>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
   );
 }

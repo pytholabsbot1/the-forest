@@ -1,63 +1,96 @@
 'use client';
 
-import Image from 'next/image';
-import { ScrollReveal } from '@/components/ui/ScrollReveal';
-import { SectionHeading } from '@/components/ui/SectionHeading';
-import { FeatureCard } from '@/components/ui/FeatureCard';
-import { GrainOverlay } from '@/components/ui/GrainOverlay';
-import { sectionImages } from '@/lib/images';
-import { pillars, needCards, sectionCopy } from '@/lib/content';
+import { useEffect, useRef, useState } from 'react';
 
 export function ManifestoSection() {
-  const { manifesto } = sectionCopy;
+  const ref = useRef<HTMLElement>(null);
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setInView(true); },
+      { threshold: 0.2 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <section id="manifesto" className="section-shell relative bg-[var(--forest-parchment)]">
-      <GrainOverlay />
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-[0.92fr_1.08fr] lg:items-start">
-          <ScrollReveal>
-            <SectionHeading
-              eyebrow={manifesto.eyebrow}
-              title={manifesto.title}
-              copy={manifesto.copy}
-            />
-
-            <div className="mt-10 rounded-[1.75rem] border border-[rgba(200,165,97,0.25)] bg-white/70 p-6 shadow-[0_20px_50px_rgba(15,31,23,0.06)] backdrop-blur-sm">
-              <p className="text-xs uppercase tracking-[0.32em] text-[var(--forest-green)]/55">{manifesto.calloutLabel}</p>
-              <p className="mt-4 font-serif text-3xl leading-tight text-[var(--forest-deep)] sm:text-4xl">
-                {manifesto.callout}
-              </p>
-            </div>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.15}>
-            <div className="relative overflow-hidden rounded-[2rem]">
-              <Image
-                src={sectionImages.manifesto}
-                alt="Forest canopy with golden light"
-                width={600}
-                height={450}
-                className="h-80 w-full object-cover sm:h-96"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-            </div>
-
-            <div className="mt-8 grid gap-5 sm:grid-cols-3">
-              {pillars.map((item) => (
-                <FeatureCard key={item.eyebrow ?? item.title} {...item} />
-              ))}
-            </div>
-          </ScrollReveal>
-        </div>
-
-        <div className="mt-16 grid gap-6 lg:grid-cols-3">
-          {needCards.map((item, i) => (
-            <ScrollReveal key={item.eyebrow ?? item.title} delay={i * 0.1}>
-              <FeatureCard {...item} />
-            </ScrollReveal>
+    <section
+      id="estate"
+      ref={ref}
+      className="relative overflow-hidden bg-[#f5f0e8] px-6 py-24 lg:px-20 lg:py-36"
+    >
+      {/* Topographic contour texture — right side */}
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/2 opacity-[0.07]">
+        <svg
+          viewBox="0 0 500 700"
+          className="h-full w-full"
+          fill="none"
+          stroke="#1a3528"
+          strokeWidth="1"
+          preserveAspectRatio="xMidYMid slice"
+        >
+          {[40, 80, 120, 160, 200, 240, 280, 320, 360].map((r, i) => (
+            <ellipse key={i} cx="380" cy="350" rx={r} ry={r * 0.55} />
           ))}
+          {[30, 60, 90, 120, 150, 180, 210].map((r, i) => (
+            <ellipse key={`b${i}`} cx="180" cy="580" rx={r} ry={r * 0.4} />
+          ))}
+          {[20, 45, 70, 95, 120].map((r, i) => (
+            <ellipse key={`c${i}`} cx="420" cy="100" rx={r} ry={r * 0.6} />
+          ))}
+        </svg>
+      </div>
+
+      <div className="relative mx-auto max-w-7xl">
+        <div className="max-w-3xl">
+
+          <div className="flex items-center gap-3">
+            <span className="h-px w-10 bg-[#c8a561]/70" />
+            <span className="text-[0.5rem] text-[#c8a561]">◆</span>
+          </div>
+
+          {/* Impactful headline */}
+          <h2 className="mt-10 font-serif text-5xl leading-[1.05] text-[#1a3528] sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
+            The Forest is not built
+            <br />
+            for moments. It is built
+            <br />
+            for{' '}
+            <span
+              className="relative inline-block transition-all duration-700 ease-out"
+              style={{
+                color: inView ? '#c8a561' : '#1a3528',
+                textShadow: inView ? '0 0 60px rgba(200,165,97,0.25)' : 'none',
+                transitionDelay: inView ? '0.5s' : '0s',
+              }}
+            >
+              generations
+              {/* Underline draw animation */}
+              <span
+                className="absolute bottom-1 left-0 h-[2px] bg-[#c8a561] transition-all duration-700 ease-out"
+                style={{
+                  width: inView ? '100%' : '0%',
+                  transitionDelay: inView ? '0.8s' : '0s',
+                }}
+              />
+            </span>
+            .
+          </h2>
+
+          <p className="mt-10 max-w-xl text-base leading-relaxed text-[#1a3528]/65 lg:text-lg">
+            Modern life has become faster, denser, and more disconnected from nature. The Forest is our quieter answer: a luxury estate where family time, wellness, golf, and long-term value can live at the same address.
+          </p>
+
+          <div className="mt-12 border-l-2 border-[#c8a561]/60 pl-6">
+            <p className="font-serif text-xl italic text-[#1a3528]/75 sm:text-2xl">
+              Land you own. Life you return to.
+            </p>
+          </div>
+
         </div>
       </div>
     </section>

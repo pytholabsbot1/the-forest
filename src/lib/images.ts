@@ -1,5 +1,5 @@
 export const heroImages = {
-  main: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1800&q=85',
+  main: '/hero.jpg',
   alt1: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1800&q=85',
   alt2: 'https://images.unsplash.com/photo-1472396961693-142e6e269027?w=1800&q=85',
 };
@@ -17,4 +17,12 @@ export const sectionImages = {
   amenities: 'https://images.unsplash.com/photo-1540555700478-4be289fbec6f?w=1200&q=85',
   spa: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=85',
   nightGolf: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&q=85',
+};
+
+export const amenitiesImages = {
+  golf: '/amenities/golf-course.jpg',
+  clubhouse: '/amenities/clubhouse.jpg',
+  spa: '/amenities/spa.jpg',
+  sports: '/amenities/sports.jpg',
+  trails: '/amenities/trails.jpg',
 };

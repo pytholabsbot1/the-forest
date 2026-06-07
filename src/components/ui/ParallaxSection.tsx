@@ -40,7 +40,7 @@ export function ParallaxSection({
         />
       </motion.div>
       {overlay && (
-        <div className="absolute inset-0 z-[1] bg-gradient-to-b from-black/35 via-black/20 to-black/45" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
       )}
       <div className="relative z-10">{children}</div>
     </div>
