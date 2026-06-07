@@ -18,8 +18,8 @@ export function Header() {
   }, []);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 pb-3 pt-6 lg:px-10 lg:pt-8">
+    <header className="fixed inset-x-0 top-0 z-50 bg-[#0f1f18]/90 backdrop-blur-md">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-10 lg:py-4">
 
         {/* Logo — hidden at top, fades in on scroll */}
         <a
@@ -30,9 +30,9 @@ export function Header() {
           <Image
             src="/logo.png"
             alt="The Forest"
-            width={64}
-            height={64}
-            className="h-16 w-16 object-contain brightness-110 drop-shadow-[0_2px_16px_rgba(200,165,97,0.6)]"
+            width={56}
+            height={56}
+            className="h-14 w-14 object-contain brightness-110 drop-shadow-[0_2px_16px_rgba(200,165,97,0.6)]"
             priority
           />
         </a>
@@ -40,7 +40,7 @@ export function Header() {
         {/* Contact Us — hidden until past hero */}
         <a
           href="#contact"
-          className="inline-flex items-center border border-[#c8a561]/60 px-6 py-2.5 text-[0.6rem] uppercase tracking-[0.35em] text-white transition-all duration-500 hover:bg-white/10"
+          className="inline-flex items-center border border-[#c8a561]/50 px-5 py-2 text-[0.6rem] uppercase tracking-[0.35em] text-white transition-all duration-500 hover:bg-[#c8a561]/10"
           style={{ opacity: scrolled ? 1 : 0, transform: `translateY(${scrolled ? 0 : -8}px)` }}
         >
           Contact Us
