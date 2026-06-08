@@ -16,19 +16,20 @@ export function HeroSection() {
             className="mb-4 h-20 w-20 object-contain brightness-110 drop-shadow-[0_2px_24px_rgba(200,165,97,0.5)] sm:h-24 sm:w-24 lg:h-28 lg:w-28"
           />
 
-          <h1
+          <p
             className="mt-6 font-serif text-7xl leading-none tracking-wide text-white sm:text-8xl lg:text-[9rem]"
             style={{ textShadow: '0 2px 20px rgba(0,0,0,0.6)' }}
+            aria-hidden="true"
           >
             THE FOREST
-          </h1>
+          </p>
 
-          <p
-            className="mt-4 text-[0.65rem] uppercase tracking-[0.45em] text-white"
+          <h1
+            className="mt-3 text-[0.65rem] uppercase tracking-[0.45em] text-white"
             style={{ textShadow: '0 1px 8px rgba(0,0,0,0.8)' }}
           >
-            A Grand Luxury Golf Estate
-          </p>
+            Luxury Golf Estate &amp; Legacy Plots — Deeg, Rajasthan, Near Delhi NCR
+          </h1>
 
           <div className="mt-5 flex items-center gap-3">
             <span className="h-px w-12 bg-[#c8a561]/90" />

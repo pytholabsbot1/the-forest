@@ -3,7 +3,9 @@ import { HeroSection } from '@/components/sections/HeroSection';
 import { ManifestoSection } from '@/components/sections/ManifestoSection';
 import { WhyForestSection } from '@/components/sections/WhyForestSection';
 import { AmenitiesSection } from '@/components/sections/AmenitiesSection';
+import { PricingSection } from '@/components/sections/PricingSection';
 import { LocationSection } from '@/components/sections/LocationSection';
+import { ContactSection } from '@/components/sections/ContactSection';
 import { Footer } from '@/components/Footer';
 
 export default function Home() {
@@ -15,7 +17,9 @@ export default function Home() {
         <ManifestoSection />
         <WhyForestSection />
         <AmenitiesSection />
+        <PricingSection />
         <LocationSection />
+        <ContactSection />
       </main>
       <Footer />
     </>
