@@ -18,9 +18,9 @@ export default function Post() {
       <table className="w-full border-collapse text-sm">
         <thead>
           <tr className="border-b border-[#c8a561]/30">
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Corridor</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">10-year CAGR</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Key driver</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Corridor</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">10-year CAGR</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Key driver</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-[#c8a561]/15">
@@ -47,11 +47,11 @@ export default function Post() {
       <table className="w-full border-collapse text-sm">
         <thead>
           <tr className="border-b border-[#c8a561]/30">
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Asset</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Historical return</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Volatility</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Liquidity</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Tax efficiency</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Asset</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Historical return</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Volatility</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Liquidity</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Tax efficiency</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-[#c8a561]/15">

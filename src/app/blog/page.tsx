@@ -16,7 +16,7 @@ export default function BlogIndex() {
       <Header />
       <main className="min-h-screen bg-[#f5f0e8] px-6 py-24 lg:px-20">
         <div className="mx-auto max-w-4xl">
-          <p className="text-[0.5rem] uppercase tracking-[0.45em] text-[#c8a561]">Insights</p>
+          <p className="text-xs uppercase tracking-[0.25em] text-[#c8a561] sm:text-sm">Insights</p>
           <h1 className="mt-4 font-serif text-4xl text-[#1a3528] sm:text-5xl">
             Guides &amp; Perspectives
           </h1>
@@ -27,12 +27,12 @@ export default function BlogIndex() {
             {blogPosts.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`}
                 className="group border border-[#c8a561]/30 bg-white/40 p-6 transition-colors hover:border-[#c8a561]/70">
-                <p className="text-[0.45rem] uppercase tracking-[0.38em] text-[#c8a561]/70">{post.pillar.replace('-', ' ')}</p>
+                <p className="text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561]/70 sm:text-xs">{post.pillar.replace('-', ' ')}</p>
                 <h2 className="mt-3 font-serif text-xl leading-snug text-[#1a3528] group-hover:text-[#1a3528]/80">
                   {post.title}
                 </h2>
                 <p className="mt-2 text-xs leading-6 text-[#1a3528]/55">{post.description}</p>
-                <p className="mt-4 text-[0.5rem] uppercase tracking-[0.3em] text-[#c8a561]/60">
+                <p className="mt-4 text-[0.6rem] uppercase tracking-[0.3em] sm:text-xs text-[#c8a561]/60">
                   {post.readingMinutes} min read · {post.publishedAt}
                 </p>
               </Link>
@@ -43,4 +43,6 @@ export default function BlogIndex() {
       <Footer />
     </>
   );
+}
+ );
 }

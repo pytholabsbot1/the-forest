@@ -35,7 +35,7 @@ export default function FarmhouseNearDelhi() {
         {/* Hero */}
         <section className="px-6 py-28 lg:px-20">
           <div className="mx-auto max-w-4xl">
-            <p className="text-[0.5rem] uppercase tracking-[0.45em] text-[#c8a561]">Farmhouse Near Delhi</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-[#c8a561] sm:text-sm">Farmhouse Near Delhi</p>
             <h1 className="mt-4 font-serif text-5xl leading-tight text-[#1a3528] sm:text-6xl lg:text-7xl">
               A Luxury Farmhouse Estate,<br />2 Hours from Delhi.
             </h1>
@@ -43,10 +43,10 @@ export default function FarmhouseNearDelhi() {
               The Forest is a gated luxury estate in Deeg, Rajasthan — about 130 km from Delhi via the Delhi-Mumbai Expressway. Executive golf, water-led landscape, spa, and legacy plots from ₹50 lakhs.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="/#pricing" className="inline-flex bg-[#1a3528] px-8 py-3.5 text-[0.6rem] uppercase tracking-[0.3em] text-white hover:opacity-80 transition-opacity">
+              <a href="/#pricing" className="inline-flex bg-[#1a3528] px-8 py-3.5 text-xs uppercase tracking-[0.2em] sm:text-sm text-white hover:opacity-80 transition-opacity">
                 View Plot Pricing
               </a>
-              <a href="/#contact" className="inline-flex border border-[#c8a561]/60 px-8 py-3.5 text-[0.6rem] uppercase tracking-[0.3em] text-[#1a3528] hover:bg-[#1a3528]/5 transition-colors">
+              <a href="/#contact" className="inline-flex border border-[#c8a561]/60 px-8 py-3.5 text-xs uppercase tracking-[0.2em] sm:text-sm text-[#1a3528] hover:bg-[#1a3528]/5 transition-colors">
                 Schedule a Visit
               </a>
             </div>
@@ -82,10 +82,10 @@ export default function FarmhouseNearDelhi() {
               <table className="w-full border-collapse text-sm">
                 <thead>
                   <tr className="border-b border-[#c8a561]/30">
-                    <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">From</th>
-                    <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Distance</th>
-                    <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Drive time</th>
-                    <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Via</th>
+                    <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">From</th>
+                    <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Distance</th>
+                    <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Drive time</th>
+                    <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Via</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-[#c8a561]/15">

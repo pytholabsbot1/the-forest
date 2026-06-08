@@ -40,7 +40,7 @@ export function LocationSection() {
         <div className="mb-12 w-full max-w-md text-center">
           <div className="flex items-center justify-center gap-3">
             <span className="h-px w-8 bg-[#c8a561]/70" />
-            <span className="text-[0.5rem] text-[#c8a561]">◆</span>
+            <span className="text-[0.6rem] text-[#c8a561]">◆</span>
             <span className="h-px w-8 bg-[#c8a561]/70" />
           </div>
           <p className="mt-4 text-[0.5rem] uppercase tracking-[0.45em] text-[#1a3528]/45">Location</p>

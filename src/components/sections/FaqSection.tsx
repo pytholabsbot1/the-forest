@@ -53,7 +53,7 @@ export function FaqSection() {
       <div className="mx-auto max-w-3xl">
         <div className="flex items-center gap-3">
           <span className="h-px w-10 bg-[#c8a561]/70" />
-          <span className="text-[0.5rem] text-[#c8a561]">◆</span>
+          <span className="text-[0.6rem] text-[#c8a561]">◆</span>
         </div>
         <h2 className="mt-6 font-serif text-3xl text-[#1a3528] sm:text-4xl">
           Frequently Asked Questions

@@ -78,7 +78,7 @@ export function WhyForestSection() {
 
           <div className="flex items-center gap-3">
             <span className="h-px w-8 bg-[#c8a561]/70" />
-            <span className="text-[0.5rem] text-[#c8a561]">◆</span>
+            <span className="text-[0.6rem] text-[#c8a561]">◆</span>
           </div>
 
           <h2 className="mt-5 font-serif text-3xl leading-tight text-[#1a3528] sm:text-4xl lg:text-[2.6rem]">
@@ -90,7 +90,7 @@ export function WhyForestSection() {
           </p>
 
           <div className="mt-8 border border-[#c8a561]/45 p-6 lg:p-8">
-            <p className="text-[0.5rem] uppercase tracking-[0.4em] text-[#c8a561]">The Promise</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-[#c8a561] sm:text-sm">The Promise</p>
             <div className="mt-5 divide-y divide-[#c8a561]/20">
               {promises.map((item, i) => (
                 <div key={i} className="py-4 first:pt-0 last:pb-0">
@@ -163,7 +163,7 @@ export function WhyForestSection() {
 
         {/* Closing tagline from brochure */}
         <div className="mt-12 flex flex-col items-center gap-3 border-t border-[#c8a561]/20 pt-10">
-          <span className="text-[0.5rem] text-[#c8a561]/60">◆</span>
+          <span className="text-[0.6rem] text-[#c8a561]/60">◆</span>
           <p className="text-center text-[0.55rem] uppercase tracking-[0.38em] text-[#1a3528]/50 max-w-lg">
             The Forest Golf Estate is designed to meet these needs—beautifully, thoughtfully, and for the long term.
           </p>

@@ -27,7 +27,7 @@ export function Footer() {
           <div className="lg:w-[60%]">
             <div className="flex items-center gap-3">
               <span className="h-px w-8 bg-[#c8a561]/60" />
-              <span className="text-[0.5rem] text-[#c8a561]">◆</span>
+              <span className="text-[0.6rem] text-[#c8a561]">◆</span>
               <span className="h-px w-8 bg-[#c8a561]/60" />
             </div>
             <h2 className="mt-4 text-[0.55rem] uppercase tracking-[0.42em] text-[#c8a561]/70">

@@ -37,14 +37,14 @@ export default function ManagedFarmland() {
 
         <section className="px-6 py-28 lg:px-20">
           <div className="mx-auto max-w-4xl">
-            <p className="text-[0.5rem] uppercase tracking-[0.45em] text-[#c8a561]">Managed Farmland</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-[#c8a561] sm:text-sm">Managed Farmland</p>
             <h1 className="mt-4 font-serif text-5xl leading-tight text-[#1a3528] sm:text-6xl lg:text-7xl">
               Own land.<br />Without managing it.
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-[#1a3528]/65 lg:text-lg">
               The Forest is a fully managed luxury estate near Delhi. You own your plot. We maintain the golf course, spa, clubhouse, trails, and landscape — year-round, whether you visit or not.
             </p>
-            <a href="/#contact" className="mt-8 inline-flex bg-[#1a3528] px-8 py-3.5 text-[0.6rem] uppercase tracking-[0.3em] text-white hover:opacity-80 transition-opacity">
+            <a href="/#contact" className="mt-8 inline-flex bg-[#1a3528] px-8 py-3.5 text-xs uppercase tracking-[0.2em] sm:text-sm text-white hover:opacity-80 transition-opacity">
               Request Information
             </a>
           </div>

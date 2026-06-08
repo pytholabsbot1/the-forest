@@ -53,13 +53,13 @@ export function HeroSection() {
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <a
               href="#estate"
-              className="inline-flex items-center bg-[#1a3528] px-8 py-3.5 text-[0.6rem] uppercase tracking-[0.3em] text-white transition-opacity hover:opacity-80"
+              className="inline-flex items-center bg-[#1a3528] px-8 py-3.5 text-xs uppercase tracking-[0.2em] sm:text-sm text-white transition-opacity hover:opacity-80"
             >
               Explore the Estate
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center border border-[#c8a561]/60 px-8 py-3.5 text-[0.6rem] uppercase tracking-[0.3em] text-white transition-colors hover:bg-white/10"
+              className="inline-flex items-center border border-[#c8a561]/60 px-8 py-3.5 text-xs uppercase tracking-[0.2em] sm:text-sm text-white transition-colors hover:bg-white/10"
             >
               Schedule a Visit
             </a>

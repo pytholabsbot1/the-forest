@@ -18,9 +18,9 @@ export default function Post() {
       <table className="w-full border-collapse text-sm">
         <thead>
           <tr className="border-b border-[#c8a561]/30">
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Factor</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Faridabad (Haryana)</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Alwar/Deeg (Rajasthan)</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Factor</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Faridabad (Haryana)</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Alwar/Deeg (Rajasthan)</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-[#c8a561]/15">

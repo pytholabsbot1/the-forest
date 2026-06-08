@@ -28,9 +28,9 @@ export default function Post() {
       <table className="w-full border-collapse text-sm">
         <thead>
           <tr className="border-b border-[#c8a561]/30">
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Land type</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Price range</th>
-            <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Buyer profile</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Land type</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Price range</th>
+            <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Buyer profile</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-[#c8a561]/15">

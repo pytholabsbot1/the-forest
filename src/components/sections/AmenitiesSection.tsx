@@ -35,10 +35,10 @@ export function AmenitiesSection() {
         <div className="mb-16 flex flex-col items-center text-center">
           <div className="flex items-center gap-3">
             <span className="h-px w-10 bg-[#c8a561]/70" />
-            <span className="text-[0.5rem] text-[#c8a561]">◆</span>
+            <span className="text-[0.6rem] text-[#c8a561]">◆</span>
             <span className="h-px w-10 bg-[#c8a561]/70" />
           </div>
-          <p className="mt-4 text-[0.5rem] uppercase tracking-[0.45em] text-[#c8a561]/60">
+          <p className="mt-4 text-xs uppercase tracking-[0.2em] text-[#c8a561] sm:text-sm/60">
             Amenities
           </p>
           <h2 className="mt-4 font-serif text-2xl text-white sm:text-3xl lg:text-4xl">
@@ -86,7 +86,7 @@ export function AmenitiesSection() {
 
         {/* Footer ornament */}
         <div className="mt-16 flex justify-center">
-          <span className="text-[0.5rem] text-[#c8a561]/40">◆</span>
+          <span className="text-[0.6rem] text-[#c8a561]/40">◆</span>
         </div>
 
       </div>

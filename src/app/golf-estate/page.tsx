@@ -17,7 +17,7 @@ export default function GolfEstate() {
 
         <section className="px-6 py-28 lg:px-20">
           <div className="mx-auto max-w-4xl">
-            <p className="text-[0.5rem] uppercase tracking-[0.45em] text-[#c8a561]">Golf Estate Near Delhi</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-[#c8a561] sm:text-sm">Golf Estate Near Delhi</p>
             <h1 className="mt-4 font-serif text-5xl leading-tight text-[#1a3528] sm:text-6xl lg:text-7xl">
               India&apos;s Luxury Golf Estate<br />with Legacy Plots.
             </h1>
@@ -25,10 +25,10 @@ export default function GolfEstate() {
               The Forest is a curated golf estate in Deeg, Rajasthan — 2 hours from Delhi. Executive golf, night golf, spa, clubhouse, and water-led landscape. Plots from ₹50 lakhs.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="/#pricing" className="inline-flex bg-[#1a3528] px-8 py-3.5 text-[0.6rem] uppercase tracking-[0.3em] text-white hover:opacity-80 transition-opacity">
+              <a href="/#pricing" className="inline-flex bg-[#1a3528] px-8 py-3.5 text-xs uppercase tracking-[0.2em] sm:text-sm text-white hover:opacity-80 transition-opacity">
                 View Plot Pricing
               </a>
-              <a href="/#contact" className="inline-flex border border-[#c8a561]/60 px-8 py-3.5 text-[0.6rem] uppercase tracking-[0.3em] text-[#1a3528] hover:bg-[#1a3528]/5 transition-colors">
+              <a href="/#contact" className="inline-flex border border-[#c8a561]/60 px-8 py-3.5 text-xs uppercase tracking-[0.2em] sm:text-sm text-[#1a3528] hover:bg-[#1a3528]/5 transition-colors">
                 Download Brochure
               </a>
             </div>
@@ -55,7 +55,7 @@ export default function GolfEstate() {
                 { label: 'Clubhouse', value: 'Social and dining infrastructure for the estate community' },
               ].map((item) => (
                 <div key={item.label} className="flex gap-4 border-b border-[#c8a561]/15 pb-5">
-                  <p className="w-32 shrink-0 text-[0.5rem] uppercase tracking-[0.3em] text-[#c8a561]/70 pt-0.5">{item.label}</p>
+                  <p className="w-32 shrink-0 text-xs uppercase tracking-[0.15em] text-[#c8a561]/70">{item.label}</p>
                   <p className="text-sm leading-6 text-[#1a3528]/70">{item.value}</p>
                 </div>
               ))}
@@ -70,9 +70,9 @@ export default function GolfEstate() {
               <table className="w-full border-collapse text-sm">
                 <thead>
                   <tr className="border-b border-[#c8a561]/30">
-                    <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Factor</th>
-                    <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">The Forest</th>
-                    <th className="pb-3 text-left text-[0.5rem] uppercase tracking-[0.35em] text-[#c8a561]">Gurgaon Golf Estates</th>
+                    <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Factor</th>
+                    <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">The Forest</th>
+                    <th className="pb-3 text-left text-[0.6rem] uppercase tracking-[0.2em] text-[#c8a561] sm:text-xs">Gurgaon Golf Estates</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-[#c8a561]/15">

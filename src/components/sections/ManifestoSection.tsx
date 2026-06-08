@@ -50,7 +50,7 @@ export function ManifestoSection() {
 
           <div className="flex items-center gap-3">
             <span className="h-px w-10 bg-[#c8a561]/70" />
-            <span className="text-[0.5rem] text-[#c8a561]">◆</span>
+            <span className="text-[0.6rem] text-[#c8a561]">◆</span>
           </div>
 
           {/* Impactful headline */}
