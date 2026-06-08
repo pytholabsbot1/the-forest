@@ -15,6 +15,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${siteUrl}/`, changeFrequency: 'monthly', priority: 1 },
     { url: `${siteUrl}/blog`, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${siteUrl}/farmhouse-near-delhi`, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${siteUrl}/managed-farmland`, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${siteUrl}/golf-estate`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${siteUrl}/privacy`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${siteUrl}/terms`, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${siteUrl}/rera`, changeFrequency: 'yearly', priority: 0.3 },
