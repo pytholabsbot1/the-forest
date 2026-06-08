@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Cormorant_Garamond, Inter } from 'next/font/google';
+import { StructuredData } from '@/components/StructuredData';
 import './globals.css';
 
 const cormorant = Cormorant_Garamond({
@@ -83,6 +84,7 @@ export default function RootLayout({
   return (
     <html lang="en-IN" className={`${cormorant.variable} ${inter.variable}`}>
       <body className="antialiased">
+        <StructuredData />
         <a className="skip-link" href="#content">
           Skip to content
         </a>
