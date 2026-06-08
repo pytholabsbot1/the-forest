@@ -45,21 +45,21 @@ export function Header() {
           className="flex items-center gap-6 transition-all duration-500"
           style={{ opacity: scrolled ? 1 : 0, transform: `translateY(${scrolled ? 0 : -8}px)` }}
         >
-          <a href="/farmhouse-near-delhi" className="text-[0.55rem] uppercase tracking-[0.3em] text-white/70 hover:text-white transition-colors">
+          <a href="/farmhouse-near-delhi" className="text-xs uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors sm:text-sm">
             Farmhouse
           </a>
-          <a href="/golf-estate" className="text-[0.55rem] uppercase tracking-[0.3em] text-white/70 hover:text-white transition-colors">
+          <a href="/golf-estate" className="text-xs uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors sm:text-sm">
             Golf
           </a>
-          <a href="/managed-farmland" className="text-[0.55rem] uppercase tracking-[0.3em] text-white/70 hover:text-white transition-colors">
+          <a href="/managed-farmland" className="text-xs uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors sm:text-sm">
             Farmland
           </a>
-          <a href="/blog" className="text-[0.55rem] uppercase tracking-[0.3em] text-white/70 hover:text-white transition-colors">
+          <a href="/blog" className="text-xs uppercase tracking-[0.2em] text-white/80 hover:text-white transition-colors sm:text-sm">
             Insights
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center border border-[#c8a561]/50 px-5 py-2 text-[0.6rem] uppercase tracking-[0.35em] text-white transition-all duration-500 hover:bg-[#c8a561]/10"
+            className="inline-flex items-center border border-[#c8a561]/50 px-5 py-2 text-xs uppercase tracking-[0.2em] text-white transition-all duration-500 hover:bg-[#c8a561]/10 sm:text-sm"
           >
             Contact Us
           </a>
