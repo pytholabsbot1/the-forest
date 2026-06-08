@@ -3,7 +3,6 @@ import { HeroSection } from '@/components/sections/HeroSection';
 import { ManifestoSection } from '@/components/sections/ManifestoSection';
 import { WhyForestSection } from '@/components/sections/WhyForestSection';
 import { AmenitiesSection } from '@/components/sections/AmenitiesSection';
-import { PricingSection } from '@/components/sections/PricingSection';
 import { LocationSection } from '@/components/sections/LocationSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { FaqSection } from '@/components/sections/FaqSection';
@@ -18,7 +17,6 @@ export default function Home() {
         <ManifestoSection />
         <WhyForestSection />
         <AmenitiesSection />
-        <PricingSection />
         <LocationSection />
         <ContactSection />
         <FaqSection />
