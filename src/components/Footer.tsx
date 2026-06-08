@@ -1,12 +1,14 @@
 const quickLinks = [
-  { label: 'The Estate', href: '#estate' },
-  { label: 'Why The Forest', href: '#why' },
-  { label: 'Amenities', href: '#amenities' },
-  { label: 'Location', href: '#location' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/' },
+  { label: 'Farmhouse Near Delhi', href: '/farmhouse-near-delhi' },
+  { label: 'Golf Estate', href: '/golf-estate' },
+  { label: 'Managed Farmland', href: '/managed-farmland' },
+  { label: 'Insights', href: '/blog' },
 ];
 
 const legalLinks = [
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
   { label: 'Privacy Policy', href: '/privacy' },
   { label: 'Terms of Service', href: '/terms' },
   { label: 'RERA Details', href: '/rera' },
