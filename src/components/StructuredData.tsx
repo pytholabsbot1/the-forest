@@ -6,8 +6,8 @@ export function StructuredData() {
     name: 'The Forest',
     description:
       'A grand luxury golf estate in Deeg, Rajasthan, about 2 hours from Delhi, with executive golf, wellness, clubhouse, water-led landscape, and legacy plots.',
-    url: 'https://the-forest-rho.vercel.app',
-    image: 'https://the-forest-rho.vercel.app/opengraph-image',
+    url: 'https://the-forest.online',
+    image: 'https://the-forest.online/opengraph-image',
     developer: {
       '@type': 'Organization',
       name: 'ABL Group',

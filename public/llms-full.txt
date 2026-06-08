@@ -77,7 +77,7 @@
 ## Contact
 - Phone: +91 98765 43210
 - Email: info@theforest.in
-- Website: https://the-forest-rho.vercel.app
+- Website: https://the-forest.online
 
 ## Editorial language rules
 - Use restraint, calm, and premium spacing.
