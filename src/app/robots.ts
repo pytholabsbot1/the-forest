@@ -1,7 +1,7 @@
 
 import type { MetadataRoute } from 'next';
 
-const siteUrl = 'https://the-forest.online';
+const siteUrl = 'https://www.forestfarmhouses.in';
 
 export default function robots(): MetadataRoute.Robots {
   return {

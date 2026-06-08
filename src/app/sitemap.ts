@@ -2,7 +2,7 @@
 import type { MetadataRoute } from 'next';
 import { blogPosts } from '@/lib/blog';
 
-const siteUrl = 'https://the-forest.online';
+const siteUrl = 'https://www.forestfarmhouses.in';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogEntries = blogPosts.map((post) => ({

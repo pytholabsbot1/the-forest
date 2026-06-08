@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: post.title,
     description: post.description,
     keywords: post.keywords,
-    alternates: { canonical: `https://the-forest.online/blog/${post.slug}` },
+    alternates: { canonical: `https://www.forestfarmhouses.in/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.description,

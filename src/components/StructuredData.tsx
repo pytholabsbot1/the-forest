@@ -5,20 +5,20 @@ export function StructuredData() {
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://the-forest.online/#organization',
+        '@id': 'https://www.forestfarmhouses.in/#organization',
         name: 'ABL Group',
-        url: 'https://the-forest.online',
+        url: 'https://www.forestfarmhouses.in',
         founder: { '@type': 'Person', name: 'Murshid Ahmed' },
         description: 'Real estate developer with 32+ years experience across NCR, Rajasthan, and Odisha.',
       },
       {
         '@type': ['Place', 'Resort'],
-        '@id': 'https://the-forest.online/#place',
+        '@id': 'https://www.forestfarmhouses.in/#place',
         name: 'The Forest — Luxury Golf Estate',
         description:
           'A luxury golf estate in Deeg, Rajasthan, about 2 hours from Delhi, with executive golf, wellness, clubhouse, water-led landscape, and legacy plots.',
-        url: 'https://the-forest.online',
-        image: 'https://the-forest.online/opengraph-image',
+        url: 'https://www.forestfarmhouses.in',
+        image: 'https://www.forestfarmhouses.in/opengraph-image',
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Teski Village, Sikhri Tehsil',
@@ -39,7 +39,7 @@ export function StructuredData() {
           { '@type': 'LocationFeatureSpecification', name: 'Clubhouse', value: true },
           { '@type': 'LocationFeatureSpecification', name: 'Water-Led Landscape', value: true },
         ],
-        developer: { '@id': 'https://the-forest.online/#organization' },
+        developer: { '@id': 'https://www.forestfarmhouses.in/#organization' },
         offers: {
           '@type': 'AggregateOffer',
           name: 'Estate Plots at The Forest',

@@ -18,7 +18,7 @@ const inter = Inter({
   display: 'swap',
 });
 
-const siteUrl = 'https://the-forest.online';
+const siteUrl = 'https://www.forestfarmhouses.in';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

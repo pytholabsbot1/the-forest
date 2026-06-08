@@ -5,7 +5,7 @@ import { Footer } from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Contact | The Forest Golf Estate',
   description: 'Get in touch with The Forest luxury golf estate — schedule a site visit, request the brochure, or speak to the ABL Group sales team.',
-  alternates: { canonical: 'https://the-forest.online/contact' },
+  alternates: { canonical: 'https://www.forestfarmhouses.in/contact' },
 };
 
 export default function Contact() {

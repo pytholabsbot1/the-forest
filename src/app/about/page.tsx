@@ -5,7 +5,7 @@ import { Footer } from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'About | The Forest Golf Estate',
   description: 'The Forest is a luxury golf estate by ABL Group in Deeg, Rajasthan — 32+ years of real estate experience, executive golf, and legacy plots near Delhi.',
-  alternates: { canonical: 'https://the-forest.online/about' },
+  alternates: { canonical: 'https://www.forestfarmhouses.in/about' },
 };
 
 export default function About() {

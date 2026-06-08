@@ -19,8 +19,8 @@ export function BlogPostLayout({ title, description, publishedAt, updatedAt, rea
     description,
     datePublished: publishedAt,
     dateModified: updatedAt ?? publishedAt,
-    author: { '@type': 'Organization', name: 'ABL Group', url: 'https://the-forest.online' },
-    publisher: { '@type': 'Organization', name: 'The Forest Golf Estate', url: 'https://the-forest.online' },
+    author: { '@type': 'Organization', name: 'ABL Group', url: 'https://www.forestfarmhouses.in' },
+    publisher: { '@type': 'Organization', name: 'The Forest Golf Estate', url: 'https://www.forestfarmhouses.in' },
   };
 
   const faqSchemaBlock = faqSchema ? {

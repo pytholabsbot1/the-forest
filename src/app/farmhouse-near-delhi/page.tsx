@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Luxury Farmhouse Near Delhi | The Forest Golf Estate, Rajasthan',
   description: 'A curated luxury farmhouse estate 2 hours from Delhi. Legacy plots from ₹50L, executive golf, spa, and gated community living. The Forest, Deeg, Rajasthan.',
   keywords: ['farmhouse near delhi', 'luxury farmhouse near delhi', 'farmland near delhi', 'delhi ncr farmhouse', 'gated farmhouse community'],
-  alternates: { canonical: 'https://the-forest.online/farmhouse-near-delhi' },
+  alternates: { canonical: 'https://www.forestfarmhouses.in/farmhouse-near-delhi' },
 };
 
 const localFaqs = [

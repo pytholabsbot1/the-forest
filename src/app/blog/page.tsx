@@ -7,7 +7,7 @@ import { blogPosts } from '@/lib/blog';
 export const metadata: Metadata = {
   title: 'Insights | The Forest Golf Estate',
   description: 'Guides on luxury farmhouse estates, managed farmland investment, golf estate living, and second homes near Delhi NCR.',
-  alternates: { canonical: 'https://the-forest.online/blog' },
+  alternates: { canonical: 'https://www.forestfarmhouses.in/blog' },
 };
 
 export default function BlogIndex() {

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Golf Estate Near Delhi | The Forest — Luxury Golf Estate Plots',
   description: 'India\'s first luxury golf estate with legacy plots near Delhi. Executive golf, night golf, spa, and curated amenity living in Deeg, Rajasthan. Plots from ₹50L.',
   keywords: ['golf estate near delhi', 'luxury golf estate india', 'golf course residential plots', 'golf estate plots', 'executive golf estate'],
-  alternates: { canonical: 'https://the-forest.online/golf-estate' },
+  alternates: { canonical: 'https://www.forestfarmhouses.in/golf-estate' },
 };
 
 export default function GolfEstate() {

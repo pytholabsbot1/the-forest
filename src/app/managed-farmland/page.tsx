@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Managed Farmland Near Delhi | The Forest Golf Estate',
   description: 'Own land in a fully managed luxury estate near Delhi. The Forest offers curated farmland plots with golf, spa, clubhouse, and full estate management — no self-management required.',
   keywords: ['managed farmland', 'managed farmland india', 'managed farmland near delhi', 'managed farms', 'managed farmland investment'],
-  alternates: { canonical: 'https://the-forest.online/managed-farmland' },
+  alternates: { canonical: 'https://www.forestfarmhouses.in/managed-farmland' },
 };
 
 const schema = {
