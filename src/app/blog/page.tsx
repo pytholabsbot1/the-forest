@@ -14,7 +14,7 @@ export default function BlogIndex() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-[#f5f0e8] px-6 py-24 lg:px-20">
+      <main className="min-h-screen bg-[#f5f0e8] px-6 pt-32 pb-24 lg:px-20">
         <div className="mx-auto max-w-4xl">
           <p className="text-xs uppercase tracking-[0.25em] text-[#c8a561] sm:text-sm">Insights</p>
           <h1 className="mt-4 font-serif text-4xl text-[#1a3528] sm:text-5xl">

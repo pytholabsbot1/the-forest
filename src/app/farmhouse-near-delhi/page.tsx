@@ -33,7 +33,7 @@ export default function FarmhouseNearDelhi() {
       <main className="bg-[#f5f0e8]">
 
         {/* Hero */}
-        <section className="px-6 py-28 lg:px-20">
+        <section className="px-6 pt-36 pb-28 lg:px-20">
           <div className="mx-auto max-w-4xl">
             <p className="text-xs uppercase tracking-[0.2em] text-[#c8a561] sm:text-sm">Farmhouse Near Delhi</p>
             <h1 className="mt-4 font-serif text-5xl leading-tight text-[#1a3528] sm:text-6xl lg:text-7xl">

@@ -34,7 +34,7 @@ export function BlogPostLayout({ title, description, publishedAt, updatedAt, rea
   } : null;
 
   return (
-    <article className="mx-auto max-w-2xl px-6 py-24 lg:px-0">
+    <article className="mx-auto max-w-2xl px-6 pt-32 pb-24 lg:px-0">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       {faqSchemaBlock && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaBlock) }} />

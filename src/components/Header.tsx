@@ -19,8 +19,12 @@ export function Header() {
 
   return (
     <header
-      className="fixed inset-x-0 top-0 z-50 transition-colors duration-500"
-      style={{ backgroundColor: scrolled ? 'rgba(15,31,24,0.9)' : 'transparent', backdropFilter: scrolled ? 'blur(12px)' : 'none' }}
+      className="fixed inset-x-0 top-0 z-50 transition-all duration-500"
+      style={{
+        backgroundColor: scrolled ? 'rgba(15,31,24,0.82)' : 'transparent',
+        backdropFilter: scrolled ? 'blur(10px)' : 'none',
+        borderBottom: scrolled ? '1px solid rgba(200,165,97,0.12)' : '1px solid transparent',
+      }}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-10 lg:py-4">
 
