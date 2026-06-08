@@ -70,7 +70,3 @@ export function BlogPostLayout({ title, description, publishedAt, updatedAt, rea
     </article>
   );
 }
-
-}
-;
-}
