@@ -28,9 +28,9 @@ export function Header() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-10 lg:py-4">
 
-        {/* Logo — hidden at top, fades in on scroll */}
+        {/* Logo */}
         <a
-          href="#top"
+          href="/"
           className="transition-all duration-500 hover:opacity-85"
           style={{ opacity: scrolled ? 1 : 0, transform: `translateY(${scrolled ? 0 : -8}px)` }}
         >
@@ -44,16 +44,19 @@ export function Header() {
           />
         </a>
 
-        {/* Nav links — hidden until past hero */}
+        {/* Nav links */}
         <div
           className="flex items-center gap-6 transition-all duration-500"
           style={{ opacity: scrolled ? 1 : 0, transform: `translateY(${scrolled ? 0 : -8}px)` }}
         >
+          <a href="/" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
+            Home
+          </a>
           <a href="/farmhouse-near-delhi" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
             Farmhouse
           </a>
           <a href="/golf-estate" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
-            Golf
+            Golf Estate
           </a>
           <a href="/managed-farmland" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
             Farmland
@@ -61,11 +64,14 @@ export function Header() {
           <a href="/blog" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
             Insights
           </a>
+          <a href="/about" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
+            About
+          </a>
           <a
-            href="#contact"
+            href="/contact"
             className="inline-flex items-center border border-[#c8a561]/40 px-4 py-1.5 text-[0.55rem] uppercase tracking-[0.28em] text-white/70 transition-all duration-500 hover:border-[#c8a561]/70 hover:text-white"
           >
-            Contact Us
+            Contact
           </a>
         </div>
       </nav>
