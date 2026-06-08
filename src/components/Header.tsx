@@ -7,11 +7,14 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    const hero = document.getElementById('top');
+    // No #top = not the homepage, show header immediately
+    if (!hero) {
+      setScrolled(true);
+      return;
+    }
     const onScroll = () => {
-      const hero = document.getElementById('top');
-      if (hero) {
-        setScrolled(window.scrollY > hero.offsetHeight - 80);
-      }
+      setScrolled(window.scrollY > hero.offsetHeight - 80);
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
