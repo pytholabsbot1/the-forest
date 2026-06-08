@@ -4,18 +4,15 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 export function Header() {
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(true);
 
   useEffect(() => {
     const hero = document.getElementById('top');
-    // No #top = not the homepage, show header immediately
-    if (!hero) {
-      setScrolled(true);
-      return;
-    }
+    if (!hero) return;
     const onScroll = () => {
       setScrolled(window.scrollY > hero.offsetHeight - 80);
     };
+    onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
