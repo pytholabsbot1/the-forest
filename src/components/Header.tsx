@@ -49,21 +49,21 @@ export function Header() {
           className="flex items-center gap-6 transition-all duration-500"
           style={{ opacity: scrolled ? 1 : 0, transform: `translateY(${scrolled ? 0 : -8}px)` }}
         >
-          <a href="/farmhouse-near-delhi" className="text-[0.6rem] uppercase tracking-[0.25em] text-white/80 hover:text-white transition-colors sm:text-[0.7rem]">
+          <a href="/farmhouse-near-delhi" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
             Farmhouse
           </a>
-          <a href="/golf-estate" className="text-[0.6rem] uppercase tracking-[0.25em] text-white/80 hover:text-white transition-colors sm:text-[0.7rem]">
+          <a href="/golf-estate" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
             Golf
           </a>
-          <a href="/managed-farmland" className="text-[0.6rem] uppercase tracking-[0.25em] text-white/80 hover:text-white transition-colors sm:text-[0.7rem]">
+          <a href="/managed-farmland" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
             Farmland
           </a>
-          <a href="/blog" className="text-[0.6rem] uppercase tracking-[0.25em] text-white/80 hover:text-white transition-colors sm:text-[0.7rem]">
+          <a href="/blog" className="text-[0.55rem] uppercase tracking-[0.28em] text-white/70 hover:text-white transition-colors">
             Insights
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center border border-[#c8a561]/50 px-5 py-2 text-[0.6rem] uppercase tracking-[0.25em] text-white transition-all duration-500 hover:bg-[#c8a561]/10 sm:text-[0.7rem]"
+            className="inline-flex items-center border border-[#c8a561]/40 px-4 py-1.5 text-[0.55rem] uppercase tracking-[0.28em] text-white/70 transition-all duration-500 hover:border-[#c8a561]/70 hover:text-white"
           >
             Contact Us
           </a>
